@@ -1,0 +1,107 @@
+{
+  "_inherit": true,
+  "_variables": {
+    "@greenColor": "#333",
+    "@white": "#FFF",
+    "@captionBlue": "#173479",
+    "@text": "#4c4c4c"
+  },
+  "color": "@text",
+  "fontSize": "16px",
+  "object": {
+    "backgroundColor": "#000",
+    "title": {
+      "main": {
+        "color": "@white",
+        "fontSize": "16px",
+        "backgroundColor": "@captionBlue"
+      },
+      "subTitle": {
+        "color": "@white",
+        "fontSize": "16px"
+      },
+      "footer": {
+        "color": "@white",
+        "fontSize": "@text",
+        "backgroundColor": "@captionBlue"
+      }
+    },
+    "listBox": { "title": { "main": {
+    "color": "@white",
+  "fontSize": "@font-normal" } },
+  "content": {
+  "color": "@default",
+"fontSize": "@font-normal" } }
+  },
+  "dataColors": {
+    "primaryColor": "#1432F5"
+  },
+  "palettes" : {
+    "data" : [
+      {
+        "name": "Dark colors",
+        "translation": "Dark colors",
+        "propertyValue": "12",
+        "type": "row",
+        "scale": [
+          "#1432F5",
+          "#6BF549",
+          "#ED4124",
+          "#6EF9FD",
+          "#EE52F7",
+           "#1432F5",
+          "#6BF549",
+          "#ED4124",
+          "#6EF9FD",
+          "#EE52F7",
+          "#1432F5",
+          "#6BF549"
+        ]
+      },
+      {
+        "name": "Light colors",
+        "translation": "Light colors",
+        "propertyValue": "11",
+        "type": "row",
+        "scale": [
+          "#1432F5",
+          "#6BF549",
+          "#ED4124",
+          "#6EF9FD",
+          "#EE52F7",
+          "#1432F5",
+          "#6BF549",
+          "#ED4124",
+          "#6EF9FD",
+          "#EE52F7",
+          "#1432F5"
+        ]
+      }
+    ],
+    "ui": [
+      {
+        "name": "Palette",
+        "colors": [
+          "none",
+          "#1432F5",
+          "#6BF549",
+          "#ED4124",
+          "#6EF9FD",
+          "#EE52F7",
+          "#1432F5",
+          "#6BF549",
+          "#ED4124",
+          "#6EF9FD",
+          "#EE52F7",
+          "#1432F5"
+        ]
+      }
+    ]
+  },
+  "customStyles": [
+    {
+      "cssRef": "qv01.css",
+      "classRef": "qv01"
+    }
+  ]
+}

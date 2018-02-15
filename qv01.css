@@ -1,0 +1,64 @@
+.qv-panel-sheet {
+	background-image: url('qv01.png');
+}
+.qv-object .qv-object-title {
+	font-color:#FFF;
+	background-color: #173479;
+}
+.qv-object {
+	background-color: #FFF;
+}
+.qv-object.qv-object-listbox .qv-object-title .qv-object-search {
+	display: none;
+}
+.qv-object.qv-object-listbox .qv-object-title .qv-object-title-text {
+		font-color:#FFF;
+	background-color: #173479;
+}
+.qv-listbox li.selected, .qv-listbox .serverSelected, .qv-listbox .serverLocked {
+	background-color: #6BF549;
+	color:#000;
+	font-weight: strong;
+}
+
+body {
+
+	font-smooth: never;
+-webkit-font-smoothing : none;
+}
+.qv-object {
+		  font-family: 'Arial',sans-serif;
+}
+
+.sheet-title-container {
+	background-color: #FFF;
+	color:#000;
+	font-weight: strong;
+}
+#sheet-title .sheet-title-text {
+	color:#000;
+	font-weight: strong;
+}
+/* https://codepen.io/tjoen/pen/Btkwm */
+#grid .qv-gridcell {
+  border: 1px solid ;
+  border-top-color: #dfdfdf;
+  border-left-color: #dfdfdf;
+  border-right-color: #000;
+  border-bottom-color: #000;
+}
+#grid .qv-gridcell-empty {
+	border:0px;
+}
+.qv-object-wrapper {  border: 2px solid #c0c0c0;	padding:2px;
+}
+.qv-object
+{    border: 1px solid;
+  border-top-color: #fff;
+  border-left-color: #fff;
+  border-right-color: #808080;
+  border-bottom-color: #808080;
+}
+.qv-object .qv-inner-object {
+	background-color: #FFF;
+}
