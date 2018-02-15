@@ -26,12 +26,18 @@
         "backgroundColor": "@captionBlue"
       }
     },
-    "listBox": { "title": { "main": {
-    "color": "@white",
-  "fontSize": "@font-normal" } },
-  "content": {
-  "color": "@default",
-"fontSize": "@font-normal" } }
+    "listBox": {
+      "title": {
+        "main": {
+          "color": "@white",
+          "fontSize": "@font-normal"
+          }
+        },
+          "content": {
+          "color": "@default",
+          "fontSize": "@font-normal" ,
+  } 
+}
   },
   "dataColors": {
     "primaryColor": "#1432F5"
