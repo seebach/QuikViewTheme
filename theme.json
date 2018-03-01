@@ -9,7 +9,7 @@
 	"color": "@text",
 	"fontSize": "16px",
 	"object": {
-		"backgroundColor": "#000",
+		"backgroundColor": "#FFF",
 		"title": {
 			"main": {
 				"color": "@white",

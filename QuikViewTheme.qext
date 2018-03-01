@@ -1,0 +1,7 @@
+{
+	"name": "Custom theme",
+	"description": "My first custom theme",
+	"type": "theme",
+	"version": "1.0.0",
+	"author": "Qlik"
+}
